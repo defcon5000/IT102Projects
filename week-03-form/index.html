@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Big Mario's Food Order Form</title>
+</head>
+<body>
+<header>
+<h1>Food Order Form</h1>
+</header>
+<div><form action="/submit" method="POST">
+<section class="name"><label for="first-name">First Name</label> <input id="first-name" name="first-name" type="text" /> <br /> <br /> <label for="last-name">Last Name</label> <input id="last-name" name="last-name" type="text" /></section>
+<br /><hr /><br />
+<section><label for="preference">Protein </label><select id="preference" name="preference">
+<option value="">-- Select a Protein --</option>
+<option value="toyota">Chicken</option>
+<option value="honda">Beef</option>
+<option value="ford">Fish</option>
+</select></section>
+  <br /><hr /><br />
+  <section class="allergens">
+    <label for="allergens">Do you have any allergies?</label>
+    <input type="text" name="allergens" id="allergens">
+  </section>
+   <br /><hr /><br />
+  <section class="submit">
+    <label for="submit">Submit Form </label>
+    <input type="submit" name="submit" id="submit" value=Send>
+  </section>
+</form></div></body></html>
