@@ -1,0 +1,30 @@
+h1 {
+    color: green;
+}
+
+h2 {
+    color: purple;
+}
+
+p {
+    background-color: #b6c6df;
+    color: #585858;
+}
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.green {
+    background-color: #385b38;
+    color: #d8f0c0;
+}
